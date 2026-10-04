@@ -1,33 +1,34 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="--accent:#ec4899">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Closet by MP</title>
-<meta name="description" content="Closet by MP, coming soon. Take one mirror photo a day. The app finds each piece of clothing, works out whether it has seen it before, and builds my closet from what I actually wear.">
-<meta name="theme-color" content="#0b0f14">
+<meta name="description" content="Closet by MP, coming soon: a closet that builds itself from one mirror photo a day.">
+<meta name="theme-color" content="#070d18">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Space+Grotesk:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=Space+Grotesk:wght@500;600&display=swap">
+<link rel="stylesheet" href="page.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="wrap row">
-  <span class="wordmark"><span class="mark" aria-hidden="true"></span><span class="word">Closet</span><span class="by">by MP</span></span>
-  <a class="back" href="https://marcantoniopovolo.com/apps.html"><svg class="arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M12 8H4M7.5 4.5 4 8l3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> All apps</a>
+  <a class="brand" href="./"><img src="icons/icon-192.png" alt="" width="34" height="34"><b>Closet</b><span>by MP</span></a>
+  <nav class="links" aria-label="Pages"><a href="about/">About<span class="hide-sm">&nbsp;the project</span></a><a href="https://marcantoniopovolo.com/apps.html">All apps</a><a class="hide-sm" href="https://marcantoniopovolo.com/projects.html">Projects</a></nav>
 </div></header>
 <main id="main" class="wrap">
   <section class="hero">
+    <img class="hero-icon" src="icons/icon-512.png" alt="" width="84" height="84">
     <p class="badge">Coming soon</p>
     <h1>A closet that builds itself.</h1>
-    <p class="intro">Take one mirror photo a day. The app finds each piece of clothing, works out whether it has seen it before, and builds my closet from what I actually wear.</p>
-    <p class="sub">Photos never leave the device and faces are never stored.</p>
+    <p class="intro">Take one mirror photo a day. The app finds each piece of clothing, works out whether it has seen it before, and keeps track of what I actually wear.</p>
+    <div class="actions"><a class="button primary" href="about/">About the project <svg class="arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5 11 11 5M6 5h5v5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="button" href="https://github.com/povolom/Closet-by-MP">View code <svg class="arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5 11 11 5M6 5h5v5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
   </section>
-  <section class="plan" aria-labelledby="h-plan">
-    <h2 id="h-plan">How I'm building it</h2>
-    <ol><li>Test the free on-device models on a phone first.</li><li>Build the pipeline on sample data, with tests.</li><li>Real models, a short inbox of yes or no questions, then install as an app.</li></ol>
-  </section>
+  <section class="block"><h2>How I’m building it</h2><ol class="points"><li>Test the free on-device models on a phone first.</li><li>Build the pipeline on sample data, with tests.</li><li>Real models, a short inbox of yes or no questions, then install as an app.</li></ol></section>
 </main>
-<footer class="foot"><div class="wrap"><p>Made by <a href="https://marcantoniopovolo.com">Marcantonio Povolo</a>. <a href="https://github.com/povolom/Closet-by-MP">Code on GitHub</a>.</p></div></footer>
+<footer class="foot"><div class="wrap"><span>Made by <a href="https://marcantoniopovolo.com">Marcantonio Povolo</a> · Based in GTA</span><span><a href="https://marcantoniopovolo.com/projects.html">Projects</a> · <a href="https://github.com/povolom/Closet-by-MP">Code on GitHub</a></span></div></footer>
 </body>
 </html>
