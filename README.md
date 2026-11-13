@@ -2,7 +2,7 @@
 
 A closet that builds itself: one mirror photo a day, and the app finds each piece of clothing, works out whether it has seen it before, and keeps track of what I actually wear.
 
-**Status:** coming soon at https://closet.marcantoniopovolo.com · [About the project](https://marcantoniopovolo.com/projects/closet.html) · Open source (MIT)
+**Status:** coming soon at https://closet.marcantoniopovolo.com · [About the project](https://marcantoniopovolo.com/projects/closet) · Open source (MIT)
 
 Built by [Marcantonio Povolo](https://marcantoniopovolo.com), a Computer Engineering student at Toronto Metropolitan University. I decide what it does and review and test each change; AI coding tools help write the code.
 
@@ -23,7 +23,7 @@ The full plan is in [SPEC.md](SPEC.md).
 | Path | What it is |
 |---|---|
 | `SPEC.md` | The full build plan, milestone by milestone |
-| `site/` | The website at closet.marcantoniopovolo.com: the coming-soon page (`index.html`, `style.css`), icons and favicons. `about/` and `_redirects` send the old project page to [marcantoniopovolo.com/projects/closet.html](https://marcantoniopovolo.com/projects/closet.html) |
+| `site/` | The website at closet.marcantoniopovolo.com: the coming-soon page (`index.html`, `style.css`), icons and favicons. `about/` and `_redirects` send the old project page to [marcantoniopovolo.com/projects/closet.html](https://marcantoniopovolo.com/projects/closet) |
 | `worker.js` | The API: anything under `/api/` (for now `/api/status`). Everything else is served from `site/` |
 | `wrangler.jsonc` | Cloudflare settings: `site/` plus `worker.js` at closet.marcantoniopovolo.com |
 | `LICENSE` | MIT: free to use, change and share |

@@ -5,7 +5,7 @@ const APP = {
   name: 'Closet by MP',
   status: 'coming soon',
   site: 'https://closet.marcantoniopovolo.com',
-  about: 'https://marcantoniopovolo.com/projects/closet.html',
+  about: 'https://marcantoniopovolo.com/projects/closet',
   code: 'https://github.com/povolom/Closet-by-MP',
 };
 
